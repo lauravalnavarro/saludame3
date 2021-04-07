@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   });
 
 app.post('/saludo', (req, res) => {
-    res.send("Hola " + req.body.name + "!");
+    res.send(`<h1>Hola ${req.body.name}!</h1>`);
     
   });
 
